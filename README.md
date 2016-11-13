@@ -4,4 +4,5 @@
 
 #####Requires
 * [Python 3](https://www.python.org/downloads/)
+* [NumPy](http://www.numpy.org/)
 * [Anaconda Accelerate](https://docs.continuum.io/accelerate/)
