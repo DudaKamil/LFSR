@@ -9,12 +9,11 @@ states = []
 def check_lfsr_gpu(matrix, size):
     global initial_state, states
     initial_state = utils.create_init_state(len(matrix))
-    desired_num_of_states = 2**size
+    desired_num_of_states = 2 ** size
 
     zeros = np.zeros((1, len(matrix)), dtype=np.int)
     current_state = initial_state
     states = utils.append_to_matrix(zeros, current_state)
-
 
     matrix = np.matrix(matrix, dtype=np.float64)
     while True:
