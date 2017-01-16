@@ -1,3 +1,5 @@
+## Linear-feedback shift register using Python3 and NVIDIA CUDA 8
+
 #### Run
 `python3 lfsr.py 3 "0,1,1, 1,1,1, 0,1,0"`
 
